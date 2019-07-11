@@ -1,0 +1,173 @@
+
+@media (min-width: 375px) {
+    .container {
+        width: 3360px;
+
+    }
+
+    .options__menu, .buttons-login  {
+        display: none;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+
+    .options__burger {
+        display: none;
+    }
+
+    .options {
+        margin: auto;
+       display: none;
+        
+    }
+
+    .options__logo-menu {
+       margin-left: 8%;
+
+    }
+
+    .options__menu {
+        padding-top: 2.5%;
+        margin-left: 00%;
+
+    }
+
+    .a-option {
+        width: 120px;
+        margin-right: 5%;
+        text-decoration: none;
+        color: black;
+    }
+
+    .a-price {
+        margin-right: 0%;
+
+    }
+
+    .options__menu, .options__logo-menu {
+        display: flex;
+        justify-content: flex-start;
+
+    }
+
+    .buttons-login {
+        display: flex;
+        
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+      width: 970px;
+
+    }
+
+    .options__burger {
+        display: none;
+    }
+
+      .options {
+        margin: auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 1%;
+        
+    }
+
+    .options__logo-menu {
+         margin-left: 8%;
+
+    }
+
+    .options__menu {
+        padding-top: 2.5%;
+        margin-left: 0%;
+
+    }
+
+    .a-option {
+        width: 120px;
+        margin-right: 5%;
+        text-decoration: none;
+        color: black;
+    }
+
+    .a-price {
+        margin-right: 0%;
+
+    }
+
+    .options__menu, .options__logo-menu {
+        display: flex;
+        justify-content: flex-start;
+
+    }
+
+    .buttons-login {
+        display: flex;
+        
+    }
+}
+  
+@media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+    
+
+    .options__burger {
+        display: none;
+    }
+    
+    .options {
+        margin: auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 1%;
+        
+    }
+
+    .options__logo-menu {
+       margin-left: 0%;
+
+    }
+
+    .options__menu {
+        text-align: center;
+        padding-top: 2.5%;
+        margin-left: 10%;
+
+    }
+
+    .a-option {
+        width: 120px;
+        margin-right: 5%;
+        text-decoration: none;
+        color: black;
+    }
+
+    .a-price {
+        margin-right: 0%;
+
+    }
+
+    
+
+    .options__menu, .options__logo-menu {
+        display: flex;
+        justify-content: flex-start;
+
+    }
+
+    .buttons-login {
+        display: flex;
+        
+    }
+}

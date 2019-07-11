@@ -1,0 +1,201 @@
+@media (min-width: 375px){
+    .container {
+        width: 360px;
+
+    }
+
+
+    .graphics {
+        widows: 20%;
+        margin-top: 1%;
+        padding-left: 20%;
+        animation: graphics 5s normal ;
+        animation-fill-mode: forwards;
+
+    }
+
+
+
+
+    @keyframes graphics {
+        0% {
+            opacity: 0;
+        }
+
+        50% {
+            opacity: 50;
+        }
+
+        100% {
+            opacity: 100;
+        }
+
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+      width: 750px;
+
+    }
+
+
+    .graphics {
+        widows: 20%;
+        margin-top: 1%;
+        padding-left: 20%;
+        animation: graphics 5s normal ;
+        animation-fill-mode: forwards;
+
+    }
+
+
+
+
+    @keyframes graphics {
+        0% {
+            opacity: 0;
+        }
+
+        50% {
+            opacity: 50;
+        }
+
+        100% {
+            opacity: 100;
+        }
+
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+
+    .graphics {
+        widows: 20%;
+        margin-top: 1%;
+        padding-left: 20%;
+        animation: graphics 5s normal ;
+        animation-fill-mode: forwards;
+
+    }
+
+
+
+
+    @keyframes graphics {
+        0% {
+            opacity: 0;
+        }
+
+        50% {
+            opacity: 50;
+        }
+
+        100% {
+            opacity: 100;
+        }
+
+    }
+
+}
+
+    
+@media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+
+    }
+
+    .prices {
+        margin-top: 0%;
+        background-image: url('../image/bg-price.svg');
+        background-position: inherit;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 100vh;
+        
+    }
+
+    .prices-content {
+        margin-top: 15%;
+        justify-content: center;
+
+    }
+
+    .offer-prices {
+        background-color:  $white;
+        width: 50%;
+        padding: 27px;
+        line-height: 1.6;
+
+    }
+
+    .characters {
+        margin-top: 20%;
+        
+    }
+
+    .characters__content {
+        margin-top: 30%;
+
+    }
+
+    .character__title {
+        text-align: center;
+        font-size: $large;
+
+    }
+
+    .price__card1 {
+        display: flex;
+        justify-content:center; 
+    }
+
+    .price__title {
+        margin: auto;
+        font-size: $large;
+        
+    }
+
+    .price-month {
+        font-size: $x-large;
+
+    }
+
+    .price__card-text {
+        margin: auto;
+
+    }
+
+    .graphics {
+        widows: 20%;
+        margin-top: 1%;
+        padding-left: 20%;
+        animation: graphics 5s normal ;
+        animation-fill-mode: forwards;
+
+    }
+
+
+
+
+    @keyframes graphics {
+        0% {
+            opacity: 0;
+        }
+
+        50% {
+            opacity: 50;
+        }
+
+        100% {
+            opacity: 100;
+        }
+
+    }
+
+}
+

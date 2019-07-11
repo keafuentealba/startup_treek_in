@@ -1,0 +1,28 @@
+.buttons-login {
+    width: 100%;
+    margin-right: 30px; 
+}
+
+.btn {
+  
+  border: none;
+  margin-top: 2%;
+  width: 30%;
+  height: 35px;
+  margin-left: 3%;
+  background-color: $white;
+}
+
+.btn-secondary {
+    background-color: $ball-blue;
+    color: white;
+    font-weight: 700;
+}
+
+.btn-price {
+  width: 70%;
+  background-color: $ball-blue;
+  color: white;
+  font-size: $medium;
+  font-weight: $bold;
+}
